@@ -1,0 +1,7 @@
+language: java
+before_install:
+- cd Rational
+jdl:
+- oraclejdk8
+script:
+- ant test
